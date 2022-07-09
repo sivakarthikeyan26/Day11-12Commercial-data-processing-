@@ -21,8 +21,13 @@ public class Commercial_func implements Commercial_interface{
 	 */
 	public Commercial_func() {
 	}
-	/*
-	 * Constructor for storing user information
+	/**
+	 * 
+	 * @param name
+	 * @param sname
+	 * @param nos
+	 * @param sprice
+	 * constructor for storing users information about stock.
 	 */
 	public Commercial_func(String name, String sname, int nos, double sprice) {
 		this.stock_holder_name = name;
